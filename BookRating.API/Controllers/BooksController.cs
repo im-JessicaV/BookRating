@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Runtime.InteropServices;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/books")]
 public class BooksController : ControllerBase
 {
     private readonly AddBookUseCase _addBookUseCase;
